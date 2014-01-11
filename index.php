@@ -49,9 +49,6 @@ if (strlen($IP) < 16) { // Check the length of the IP address to determine type
     
     <!-- Optional theme -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
-    
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
     <!-- Custom styles for this template -->
     <link href="main.css" rel="stylesheet">
@@ -74,12 +71,6 @@ if (strlen($IP) < 16) { // Check the length of the IP address to determine type
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
                     <a class="navbar-brand" href="#"><i class="fa fa-chevron-left"></i><i class="fa fa-question"></i><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;What is your IP?</a>
                 </div>
 
@@ -126,6 +117,10 @@ if (strlen($IP) < 16) { // Check the length of the IP address to determine type
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
     <!-- Placed at the end of the document so the pages load faster -->
   </body>
 </html>
