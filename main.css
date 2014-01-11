@@ -1,0 +1,135 @@
+/*Portions Copyright (c) 1997-2014 Corey Edwards All Rights
+Reserved.
+
+This file contains Original Code and/or Modifications of Original Code
+as defined in and that are subject to the Corey Edwards Public Source
+License Version 3.0 (the 'License'). You may not use this file except
+in compliance with the License. Please obtain a copy of the License at
+http://www.cedwardsmedia.com/cepsl/ and read it before using this
+file.
+
+The Original Code and all software distributed under the License are
+distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER
+EXPRESSED OR IMPLIED, AND COREY EDWARDS HEREBY DISCLAIMS ALL SUCH
+WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR
+NON-INFRINGEMENT. Please see the License for the specific language
+governing rights and limitations under the License.
+*/
+
+/* Space out content a bit */
+
+html {
+  height: 100%;
+}
+
+body {
+
+  height: 100%;
+}
+
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
+  line-height: 50%;
+  text-align: center;
+  font-family:"Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Set padding for Navbar */
+#content {
+  padding-top: 60px;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 0px;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 80%;
+  color: #B2B8BE;
+}
