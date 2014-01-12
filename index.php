@@ -31,6 +31,9 @@ if (strlen($IP) < 16) { // Check the length of the IP address to determine type
         $string = "<h2>" . $IP . "</h2>"; // IP address is version 6, so place it in <h2> for size
     }
 
+$agent = $_SERVER['HTTP_USER_AGENT']; // Set user agent string to $agent
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -88,6 +91,8 @@ if (strlen($IP) < 16) { // Check the length of the IP address to determine type
           <div class="jumbotron">
             <p class="lead">Your IP address is</p>
             <? echo $string; ?>
+            <p class="lead">Your user agent is</p>
+            <pre><code><? echo $agent; ?></code></pre>
           </div><!--/jumbotron -->
     
           <div class="row marketing">
@@ -95,6 +100,10 @@ if (strlen($IP) < 16) { // Check the length of the IP address to determine type
               <p class="lead">What is an IP address?</p>
               <p>An Internet Protocol address (IP address) is a numerical label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication. An IP address serves two principal functions: host or network interface identification and location addressing. Its role has been characterized as follows: "A name indicates what we seek. An address indicates where it is. A route indicates how to get there."</p>
               <p><a class="btn btn-info" href="https://en.wikipedia.org/wiki/Ip_address" role="button" target="blank">Learn more</a></p>
+              
+              <p class="lead">What is a user agent?</p>
+              <p>The user agent string is a piece of a text that your web browser sends to a server every time it requests a file or page. This text identifies your web browser and operating system. This information is used by web servers for various purposes such as sending slightly different style sheets depending on your browser, offering the right download for a program for your OS, and web-based stats like Google Analytics.</p>
+              <p><a class="btn btn-info" href="https://en.wikipedia.org/wiki/User_agent" role="button" target="blank">Learn more</a></p>
             </div>
           </div><!--/row marketing -->
     
