@@ -32,6 +32,12 @@ if (strlen($IP) < 16) { // Check the length of the IP address to determine type
 
 $agent = $_SERVER['HTTP_USER_AGENT']; // Set user agent string to $agent
 
+if (stripos($agent, 'curl') !== false || stripos($agent, 'wget') !== false) {
+    echo "Hello! Your IP address is " . $IP;
+    echo "\r\n";
+    die();
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
