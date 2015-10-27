@@ -98,7 +98,6 @@ if (stripos($agent, 'curl') !== false || stripos($agent, 'wget') !== false) {
 
 
           <div id="footer" class="footer">
-            <p>This software includes GeoLite and GeoLite2 data created by MaxMind, available from <a href="http://www.maxmind.com">http://www.maxmind.com</a>.</p>
             <p>The source code for this software is available on <a href="http://code.cedwardsmedia.com">Bitbucket</a> and is licensed under <a href="http://www.cedwardsmedia.com/cepsl/">CEPSL v3</a></p>
             <p class="copyright">&copy; 2014 Corey Edwards - All Rights Reserved</p>
           </div><!--/footer -->
