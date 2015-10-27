@@ -98,8 +98,8 @@ if (stripos($agent, 'curl') !== false || stripos($agent, 'wget') !== false) {
 
 
           <div id="footer" class="footer">
-            <p>The source code for this software is available on <a href="http://code.cedwardsmedia.com">Bitbucket</a> and is licensed under <a href="http://www.cedwardsmedia.com/cepsl/">CEPSL v3</a></p>
-            <p class="copyright">&copy; 2014 Corey Edwards - All Rights Reserved</p>
+            <p>The source code for this software is available on <a href="https://www.github.com/cedwardsmedia/whats-your-ip">Github</a> and is licensed under the <a href="https://www.github.com/cedwardsmedia/whats-your-ip/LICENSE">MIT License</a></p>
+            <p class="copyright">&copy; 2014 - <?php echo date(Y);?> Corey Edwards - All Rights Reserved</p>
           </div><!--/footer -->
 
         </div><!--/content -->
