@@ -21,7 +21,7 @@ $agent = $_SERVER['HTTP_USER_AGENT']; // Set user agent string to $agent
 
 if (stripos($agent, 'curl') !== false || stripos($agent, 'wget') !== false) {
    try {
-     echo "⚠️  Your IP address is  " . $_SERVER['REMOTE_ADDR'] . "\r\n";
+     echo "⚠️  Your IP address is  " . $IP . "\r\n";
      exit();
    } catch (Exception $e) {
      echo "☠  " . $e->getMessage() . "\r\n"; // In case something does break
