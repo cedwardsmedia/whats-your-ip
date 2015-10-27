@@ -2,6 +2,9 @@
 // We don't want errors being shown to the user.
 ini_set('display_errors', 0);
 
+// In case php.ini isn't set right.
+date_default_timezone_set('Universal');
+
 if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])){
     $IP = $_SERVER['HTTP_CF_CONNECTING_IP']; // Get the IP address of the visitor from Cloudflare
     } else {
