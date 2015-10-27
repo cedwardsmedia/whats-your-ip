@@ -27,8 +27,8 @@ if (stripos($agent, 'curl') !== false || stripos($agent, 'wget') !== false) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Find our your IP address">
+    <meta name="author" content="Corey Edwards">
 
     <title>What's your IP?</title>
 
