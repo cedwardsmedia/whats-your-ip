@@ -5,9 +5,15 @@ ini_set('display_errors', 0);
 // In case php.ini isn't set right.
 date_default_timezone_set('Universal');
 
-if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])){
-    $IP = $_SERVER['HTTP_CF_CONNECTING_IP']; // Get the IP address of the visitor from Cloudflare
+if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])){
+   // Get the IP address of the visitor from Cloudflare
+      $IP = $_SERVER['HTTP_CF_CONNECTING_IP'];
+    } elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+   // Get the IP address of the visitor from Heroku
+      $ipAddresses = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
+      $IP = trim(end($ipAddresses));
     } else {
+   // Get the IP address of the visitor
     $IP = $_SERVER['REMOTE_ADDR'];
     }
 
