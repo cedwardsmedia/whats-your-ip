@@ -51,7 +51,7 @@ if (stripos($agent, 'curl') !== false || stripos($agent, 'wget') !== false) {
     <link href="main.css" rel="stylesheet">
 
     <!-- FontAwesome -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
