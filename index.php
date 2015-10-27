@@ -73,7 +73,7 @@ if (stripos($agent, 'curl') !== false || stripos($agent, 'wget') !== false) {
 
                 <div class="navbar-collapse collapse">
                     <p class="navbar-text pull-right">
-                    <a href="http://www.twitter.com/cedwardsmedia" target="_blank" class="navbar-link"><i class="fa fa-twitter fa-lg"></i></a>&nbsp;&nbsp;<a href="http://www.gittip.com/cedwardsmedia" target="_blank" class="navbar-link"><i class="fa fa-gittip fa-lg"></i></a>&nbsp;&nbsp;<a href="https://www.github.com/cedwardsmedia/whats-your-ip" target="_blank" class="navbar-link"><i class="fa fa-github fa-lg"></i></a>
+                    <a href="http://www.twitter.com/cedwardsmedia" target="_blank" class="navbar-link"><i class="fa fa-twitter fa-lg"></i></a>&nbsp;&nbsp;<a href="http://www.gratipay.com/~cedwardsmedia" target="_blank" class="navbar-link"><i class="fa fa-gratipay fa-lg"></i></a>&nbsp;&nbsp;<a href="https://www.github.com/cedwardsmedia/whats-your-ip" target="_blank" class="navbar-link"><i class="fa fa-github fa-lg"></i></a>
                     </p>
                 </div><!--/.nav-collapse -->
             </div><!--/container-->
