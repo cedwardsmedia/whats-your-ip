@@ -1,4 +1,6 @@
 <?
+// We don't want errors being shown to the user.
+ini_set('display_errors', 0);
 
 if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])){
     $IP = $_SERVER['HTTP_CF_CONNECTING_IP']; // Get the IP address of the visitor from Cloudflare
