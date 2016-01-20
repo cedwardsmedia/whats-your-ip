@@ -1,4 +1,6 @@
 <?
+// Copyright (c) 2015-2016 Corey Edwards
+
 // We don't want errors being shown to the user.
 ini_set('display_errors', 0);
 
